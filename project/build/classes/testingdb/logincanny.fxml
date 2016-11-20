@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testingdb.ImagewindowController">
+  <children>
+    <ImageView fx:id="i10" fitHeight="186.0" fitWidth="186.0" layoutX="12.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true" />
+    <ImageView fx:id="i20" fitHeight="186.0" fitWidth="186.0" layoutX="207.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true" />
+    <ImageView fx:id="i30" fitHeight="186.0" fitWidth="186.0" layoutX="402.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true" />
+    <Button layoutX="43.0" layoutY="49.0" mnemonicParsing="false" onAction="#cannyface" prefHeight="25.0" prefWidth="124.0" text="Canny to face">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+    <Button layoutX="238.0" layoutY="49.0" mnemonicParsing="false" onAction="#cannyfinger" prefHeight="25.0" prefWidth="124.0" text="Canny to fingerprint">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+    <Button layoutX="433.0" layoutY="49.0" mnemonicParsing="false" onAction="#cannyiris" prefHeight="25.0" prefWidth="124.0" text="Canny to iris">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+    <Label layoutX="69.0" layoutY="14.0" prefWidth="462.0" text="                                                   Canny detector window" />
+    <Button defaultButton="true" layoutX="503.0" layoutY="352.0" mnemonicParsing="false" onAction="#next" prefWidth="71.0" text="Next">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="cannylabel" layoutX="215.0" layoutY="356.0" prefHeight="17.0" prefWidth="209.0" />
+  </children>
+</AnchorPane>

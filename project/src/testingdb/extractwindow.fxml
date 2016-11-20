@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testingdb.ImagewindowController">
+  <children>
+    <ImageView fx:id="i4" fitHeight="225.0" fitWidth="187.0" layoutX="7.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" />
+    <ImageView fx:id="i5" fitHeight="225.0" fitWidth="187.0" layoutX="207.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" />
+    <ImageView fx:id="i6" fitHeight="225.0" fitWidth="187.0" layoutX="406.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" />
+    <Button defaultButton="true" layoutX="204.0" layoutY="316.0" mnemonicParsing="false" onAction="#finalreg" prefHeight="25.0" prefWidth="217.0" text="FINAL REGISTER">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+    <Button layoutX="24.0" layoutY="2.0" mnemonicParsing="false" onAction="#g1" prefHeight="25.0" prefWidth="167.0" text="Perform Gabor to face">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+    <Button layoutX="216.0" layoutY="2.0" mnemonicParsing="false" onAction="#g2" prefHeight="25.0" prefWidth="177.0" text="Perform Gabor to fingerprint">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+    <Button layoutX="416.0" layoutY="2.0" mnemonicParsing="false" onAction="#g3" prefHeight="25.0" prefWidth="167.0" text="Perform Gabor to iris">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+    <Button layoutX="507.0" layoutY="316.0" mnemonicParsing="false" onAction="#mmm" text="Go to login">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="lab" layoutX="142.0" layoutY="348.0" prefHeight="17.0" prefWidth="341.0" />
+      <Label fx:id="gaberor" layoutX="225.0" layoutY="378.0" prefHeight="17.0" prefWidth="243.0" />
+  </children>
+</AnchorPane>

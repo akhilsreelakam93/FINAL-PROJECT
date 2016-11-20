@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testingdb.ImagewindowController">
+   <children>
+      <ImageView fx:id="i1" fitHeight="225.0" fitWidth="187.0" layoutX="7.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="i2" fitHeight="225.0" fitWidth="187.0" layoutX="207.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="i3" fitHeight="225.0" fitWidth="187.0" layoutX="406.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" />
+      <Button defaultButton="true" layoutX="145.0" layoutY="350.0" mnemonicParsing="false" onAction="#gb" text="To Gabor window">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="24.0" layoutY="2.0" mnemonicParsing="false" onAction="#c1" prefHeight="25.0" prefWidth="167.0" text="Perform Canny to face">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="216.0" layoutY="2.0" mnemonicParsing="false" onAction="#c2" prefHeight="25.0" prefWidth="177.0" text="Perform Canny to fingerprint">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="416.0" layoutY="2.0" mnemonicParsing="false" onAction="#c3" prefHeight="25.0" prefWidth="167.0" text="Perform Canny to iris">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="351.0" layoutY="350.0" mnemonicParsing="false" onAction="#bac" prefHeight="25.0" prefWidth="110.0" text="Go back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="gaborlabel" layoutX="212.0" layoutY="327.0" prefHeight="17.0" prefWidth="177.0" />
+   </children>
+</AnchorPane>

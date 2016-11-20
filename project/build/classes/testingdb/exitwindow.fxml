@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="100.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testingdb.FXMLDocumentController">
+   <children>
+      <Label layoutX="73.0" layoutY="14.0" text="Are you sure you want to exit" />
+      <Button layoutX="16.0" layoutY="50.0" mnemonicParsing="false" onAction="#finalexit" prefHeight="25.0" prefWidth="115.0" text="Yes">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="171.0" layoutY="50.0" mnemonicParsing="false" onAction="#newback" text="Back to main page">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testingdb.SorryController">
+   <children>
+      <Label layoutX="37.0" layoutY="101.0" text="YOU HAVE BEEN REDIRECTED TO THIS PAGE BECAUSE YOUR BIOMETRIC TRAITS ARE" textFill="#dd1511">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="135.0" text="FOUND TO BE DIFFERENT FROM THE ONES GIVEN TO US DURING REGISTRATION" textFill="#dd1511">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="31.0" text="LOGIN FAILED !!" textFill="#eb0d0d">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Button layoutX="476.0" layoutY="343.0" mnemonicParsing="false" onAction="#loo" text="Go to login page">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="f1" layoutX="247.0" layoutY="216.0" text="Matching accuracy" textFill="#1d3c90" underline="true" visible="false">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="f2" layoutX="227.0" layoutY="245.0" prefHeight="21.0" prefWidth="34.0" text="Face" textFill="#1d3c90" visible="false">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="f3" layoutX="227.0" layoutY="272.0" text="Fingerprint" textFill="#1d3c90" visible="false">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="f4" layoutX="227.0" layoutY="295.0" prefHeight="21.0" prefWidth="23.0" text="Iris" textFill="#1d3c90" visible="false">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="facerate" layoutX="343.0" layoutY="247.0" prefHeight="17.0" prefWidth="137.0" visible="false" />
+      <Label fx:id="fingerrate" layoutX="343.0" layoutY="272.0" prefHeight="17.0" prefWidth="137.0" visible="false" />
+      <Label fx:id="irisrate" layoutX="343.0" layoutY="297.0" prefHeight="17.0" prefWidth="137.0" visible="false" />
+      <Button layoutX="254.0" layoutY="165.0" mnemonicParsing="false" onAction="#showstatistics" text="Show statistics">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testingdb.BankController">
+  <children>
+    <Label layoutX="14.0" layoutY="62.0" prefHeight="31.0" prefWidth="200.0" text="Welcome to Bank" textFill="#716fe4">
+      <font>
+        <Font name="Haettenschweiler" size="37.0" />
+      </font>
+    </Label>
+      <Label layoutX="16.0" layoutY="21.0" text="BIOMETRIC LOGIN SUCCESSULL!!!" textFill="#3fb530">
+         <font>
+            <Font name="Microsoft Sans Serif" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="508.0" layoutY="343.0" mnemonicParsing="false" onAction="#signout" text="Signout">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="statb" layoutX="16.0" layoutY="161.0" mnemonicParsing="false" onAction="#showstatistics" text="Show statistics">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="irisrate" layoutX="130.0" layoutY="295.0" prefHeight="17.0" prefWidth="137.0" visible="false" />
+      <Label fx:id="fingerrate" layoutX="130.0" layoutY="255.0" prefHeight="17.0" prefWidth="137.0" visible="false" />
+      <Label fx:id="facerate" layoutX="130.0" layoutY="215.0" prefHeight="17.0" prefWidth="137.0" visible="false" />
+      <Label fx:id="f4" layoutX="18.0" layoutY="295.0" prefHeight="21.0" prefWidth="23.0" text="Iris" textFill="#1d3c90" visible="false">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="f3" layoutX="18.0" layoutY="255.0" text="Fingerprint" textFill="#1d3c90" visible="false">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="f2" layoutX="18.0" layoutY="215.0" prefHeight="21.0" prefWidth="34.0" text="Face" textFill="#1d3c90" visible="false">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="f1" layoutX="18.0" layoutY="193.0" text="Matching accuracy" textFill="#1d3c90" underline="true" visible="false">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+  </children>
+</AnchorPane>

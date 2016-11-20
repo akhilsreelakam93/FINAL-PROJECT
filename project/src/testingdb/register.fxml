@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testingdb.SQLiteJDBC">
+  <children>
+    <Label layoutX="45.0" layoutY="6.0" text="NEW USER REGISTRATION">
+      <font>
+        <Font name="Poor Richard" size="26.0" />
+      </font>
+    </Label>
+    <Label layoutX="42.0" layoutY="113.0" text="Account holder's name" />
+    <Label layoutX="40.0" layoutY="191.0" text="Username" />
+    <Label layoutX="42.0" layoutY="270.0" text="PIN number" />
+    <TextField fx:id="holdername" layoutX="42.0" layoutY="137.0" promptText="Max 10 characters" />
+    <TextField fx:id="holderusername" layoutX="42.0" layoutY="215.0" promptText="Max 8 characters" />
+    <PasswordField fx:id="holderpassword" layoutX="42.0" layoutY="289.0" promptText="4 DIGITS" />
+    <Button fx:id="regbutton" defaultButton="true" layoutX="422.0" layoutY="254.0" mnemonicParsing="false" onAction="#reg" prefHeight="19.0" prefWidth="149.0" text="Complete Part 1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+    <Button layoutX="423.0" layoutY="361.0" mnemonicParsing="false" onAction="#backi" prefHeight="25.0" prefWidth="149.0" text="Go back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+    <Label fx:id="label1" layoutX="251.0" layoutY="141.0" prefHeight="17.0" prefWidth="156.0" />
+    <Label fx:id="label2" layoutX="251.0" layoutY="219.0" prefHeight="17.0" prefWidth="149.0" />
+    <Label fx:id="label3" layoutX="251.0" layoutY="293.0" prefHeight="17.0" prefWidth="156.0" />
+    <Label fx:id="label4" layoutX="43.0" layoutY="360.0" prefHeight="27.0" prefWidth="311.0">
+      <font>
+        <Font name="System Bold" size="18.0" />
+      </font>
+    </Label>
+    <Button fx:id="valuekey" layoutX="198.0" layoutY="218.0" mnemonicParsing="false" onAction="#value" text="Validate">
+      <font>
+        <Font size="9.0" fx:id="x1" />
+      </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+    </Button>
+    <Label layoutX="47.0" layoutY="53.0" text="Part 1">
+      <font>
+        <Font name="Microsoft YaHei" size="19.0" />
+      </font>
+    </Label>
+    <Label layoutX="423.0" layoutY="65.0" text="Select gender" />
+    <RadioButton fx:id="rb1" font="$x1" layoutX="423.0" layoutY="95.0" mnemonicParsing="false" onAction="#rbuttn" text="Male">
+      <toggleGroup>
+        <ToggleGroup fx:id="mygrup" />
+      </toggleGroup>
+    </RadioButton>
+    <RadioButton fx:id="rb2" font="$x1" layoutX="496.0" layoutY="95.0" mnemonicParsing="false" onAction="#rbuttn" text="Female" toggleGroup="$mygrup" />
+    <TextField fx:id="mobile" layoutX="422.0" layoutY="167.0" promptText="10 DIGITS" />
+    <Label layoutX="423.0" layoutY="143.0" text="Mobile number" />
+    <Label fx:id="genderlabel" layoutX="520.0" layoutY="120.0" prefHeight="17.0" prefWidth="54.0" visible="false" />
+    <Button defaultButton="true" layoutX="423.0" layoutY="325.0" mnemonicParsing="false" onAction="#part2" prefHeight="27.0" prefWidth="149.0" text="Go to part 2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+    <Label fx:id="label6" layoutX="423.0" layoutY="120.0" prefHeight="17.0" prefWidth="149.0" />
+    <Label fx:id="label7" layoutX="422.0" layoutY="205.0" prefHeight="17.0" prefWidth="149.0" />
+    <ImageView fx:id="opr" fitHeight="31.0" fitWidth="54.0" layoutX="530.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true" />
+    <TextField fx:id="useragain" layoutX="422.0" layoutY="289.0" prefHeight="25.0" prefWidth="149.0" promptText="Enter username again" />
+  </children>
+</AnchorPane>

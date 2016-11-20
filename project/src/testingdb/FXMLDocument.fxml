@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="417.0" prefWidth="628.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testingdb.FXMLDocumentController">
+   <children>
+      <Label layoutX="28.0" layoutY="32.0" text="ANFIS BASED MULTIBIOMETRIC SECURITY SYSTEM" textAlignment="CENTER">
+         <font>
+            <Font name="Corbel Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="539.0" layoutY="334.0" mnemonicParsing="false" onAction="#lastwindow" prefHeight="25.0" prefWidth="65.0" text="EXIT">
+         <effect>
+            <Reflection />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="aboutbutton" layoutX="466.0" layoutY="334.0" mnemonicParsing="false" onAction="#about" prefHeight="25.0" prefWidth="65.0" text="ABOUT">
+         <effect>
+            <Reflection />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="262.0" fitWidth="389.0" layoutX="47.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="img/atm1.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="480.0" layoutY="117.0" text="Enter the username" />
+      <TextField fx:id="username_box" layoutX="457.0" layoutY="143.0" promptText="Less than or equal to 8 characters">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></TextField>
+      <Label layoutX="481.0" layoutY="192.0" text="Enter the password" />
+      <Button fx:id="button" defaultButton="true" layoutX="466.0" layoutY="289.0" mnemonicParsing="false" onAction="#signin" prefHeight="35.0" prefWidth="65.0" text="Sign in">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="warning" layoutX="448.0" layoutY="240.0" prefHeight="17.0" prefWidth="168.0" />
+      <Label fx:id="invalid_label" layoutX="448.0" layoutY="260.0" prefHeight="17.0" prefWidth="159.0">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button fx:id="registerbutton" layoutX="539.0" layoutY="289.0" mnemonicParsing="false" onAction="#regi" prefHeight="35.0" prefWidth="65.0" text="Register">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="logoutlabel" layoutX="47.0" layoutY="386.0" prefHeight="17.0" prefWidth="213.0" />
+      <Line endX="520.0" layoutX="91.0" layoutY="21.0" startX="-73.0" strokeWidth="2.0" />
+      <Line endX="520.0" layoutX="91.0" layoutY="77.0" startX="-73.0" strokeWidth="2.0" />
+      <Line endX="3.0" layoutX="-12.0" layoutY="49.0" rotate="90.0" startX="57.0" strokeWidth="2.0" />
+      <Line endX="3.0" layoutX="581.0" layoutY="49.0" rotate="90.0" startX="57.0" strokeWidth="2.0" />
+      <PasswordField fx:id="password_box" layoutX="458.0" layoutY="215.0" promptText="4 digit PIN" />
+      <Button fx:id="newuserbutton" layoutX="485.0" layoutY="374.0" mnemonicParsing="false" onAction="#newuseraction" text="I am a new user" visible="false" />
+   </children>
+</AnchorPane>

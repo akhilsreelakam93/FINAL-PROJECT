@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="417.0" prefWidth="628.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testingdb.FXMLDocumentController">
+   <children>
+      <Button layoutX="548.0" layoutY="358.0" mnemonicParsing="false" onAction="#back" text="Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Text layoutX="64.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ANFIS based multibiometric security system is an advancement of typical PIN ATMs. While ordinary ATMs use just the PIN number for authentication, ABMSS uses biometric traits along with the user's PIN thus shifting the application into an another level of security" textAlignment="JUSTIFY" wrappingWidth="500.13671875" />
+      <Line endX="415.0" layoutX="170.0" layoutY="87.0" startX="-110.0" />
+      <Line endX="415.0" layoutX="169.0" layoutY="347.0" startX="-110.0" />
+      <TextArea editable="false" layoutX="64.0" layoutY="126.0" prefHeight="25.0" prefWidth="137.0" text="Akhil Suresh" />
+      <TextArea editable="false" layoutX="64.0" layoutY="197.0" prefHeight="25.0" prefWidth="137.0" text="Meenu P Chandran" />
+      <TextArea editable="false" layoutX="64.0" layoutY="270.0" prefHeight="25.0" prefWidth="137.0" text="Abdul Razeen" />
+      <Label layoutX="64.0" layoutY="98.0" text="Developers" />
+      <Label fx:id="l1" layoutX="224.0" layoutY="126.0" prefHeight="17.0" prefWidth="208.0" />
+      <Label fx:id="l2" layoutX="224.0" layoutY="156.0" prefHeight="17.0" prefWidth="208.0" />
+      <Label fx:id="l4" layoutX="224.0" layoutY="234.0" prefHeight="17.0" prefWidth="208.0" />
+      <Label fx:id="l3" layoutX="224.0" layoutY="200.0" prefHeight="17.0" prefWidth="208.0" />
+      <Label fx:id="l6" layoutX="224.0" layoutY="307.0" prefHeight="17.0" prefWidth="208.0" />
+      <Label fx:id="l5" layoutX="224.0" layoutY="274.0" prefHeight="17.0" prefWidth="208.0" />
+      <Button layoutX="64.0" layoutY="161.0" mnemonicParsing="false" onAction="#m1" text="Contact">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <InnerShadow height="0.0" radius="3.205" width="14.82" />
+         </effect></Button>
+      <Button layoutX="64.0" layoutY="230.0" mnemonicParsing="false" onAction="#m2" text="Contact">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <InnerShadow height="0.0" radius="3.205" width="14.82" />
+         </effect></Button>
+      <Button layoutX="64.0" layoutY="303.0" mnemonicParsing="false" onAction="#m3" text="Contact">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <InnerShadow height="0.0" radius="3.205" width="14.82" />
+         </effect></Button>
+      <ImageView fx:id="iv1" fitHeight="57.0" fitWidth="60.0" layoutX="458.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="iv2" fitHeight="57.0" fitWidth="60.0" layoutX="458.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="iv3" fitHeight="57.0" fitWidth="60.0" layoutX="458.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+   <effect>
+      <Glow />
+   </effect>
+</AnchorPane>
